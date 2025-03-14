@@ -3,7 +3,7 @@ package Inheritance;
 public class Customer {
     private int cid;
     private String cname;
-    protected int balance; // Changed to protected for subclass access
+    protected int balance;
     static double rate = 8.5;
     static int time = 5;
     private static String bank = "American Express";
